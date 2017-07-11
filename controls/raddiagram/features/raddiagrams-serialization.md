@@ -333,8 +333,8 @@ For example, if you have a binding to the Position property you can use the foll
 				Dim position = Utils.ToPoint(info("MyPosition").ToString())
 				node.Position = position.Value
 			End If
-		Return node
-End Function
+			Return node
+		End Function
 		
 > The code snippets above demonstrate how to preserve the bindings in an __MVVM__ scenario with a custom __GraphSource__. If you have statically declared shapes you can use the __ShapeSerialized__ and __ShapeDeserialized__ events of the diagram.
 

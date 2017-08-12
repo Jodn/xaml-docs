@@ -35,8 +35,8 @@ You can define the __LocalDataSourceProvider__	as a *StaticResource* in your XAM
 	        </pivot:LocalDataSourceProvider>
 	    </Grid.Resources>
 	
-	    <pivot:RadPivotGrid Name="radPivotGrid1" DataProvider="{StaticResource LocalDataProvider}">
-	    <pivot:RadPivotFieldList Name="radPivotFieldList1" Grid.Column="1"  DataProvider="{StaticResource LocalDataProvider}"/>
+	    <pivot:RadPivotGrid Name="radPivotGrid1" DataProvider="{StaticResource LocalDataSourceProvider}">
+	    <pivot:RadPivotFieldList Name="radPivotFieldList1" Grid.Column="1"  DataProvider="{StaticResource LocalDataSourceProvider}"/>
 	</Grid>
 {{endregion}}
 
